@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-logo img {
+    width: 187px;
+    height: 71px;
+}
+
+.header-content {
+    height: 100px;
+    align-items: center;
+}
+
+
+
+.product-card {
+    width: 290px;
+    height: 260px;
+    text-align: center;
+
+
+    border-radius: 10px;
+    background: #FCFFFC;
+    box-shadow: 4px 2px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+.product-img {
+    padding-top: 10px;
+}
+
+
+.small-cards {
+    gap: 45px;
+}
+
+.small-card {
+    width: 290px;
+
+    display: flex;
+    height: 145px;
+    padding: 20px;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+    border-radius: 10px;
+    background: #FCFFFC;
+    box-shadow: 4px 2px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+#uchinchi .container {
+    border: 1px blue dashed;
+
+    border-radius: 10px;
+
+
+}
+
+.brands-title {
+    color: var(--unnamed, #333232);
+
+    /* заголовок h1 */
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+
+.brand-img img {
+    width: 195px;
+
+}
+
+
+.main-link a {
+    color: var(--unnamed, #B9B9B9);
+
+    /* текст 14 */
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.birinchi-title {
+    color: var(--unnamed, #333232);
+
+    /* заголовок h1 */
+    font-family: sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.zakaz-title {
+    color: var(--unnamed, #333232);
+
+    /* заголовок h2 */
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.zakaz-card {
+    width: 910px;
+    padding: 20px;
+
+    margin: 0 auto;
+
+    border-radius: 10px;
+    border: 1px solid var(--unnamed, #EAEAEA);
+}
+
+.zakaz-text {
+    width: 300px;
+}
+
+
+.zakonchilsa {
+    border-radius: 10px;
+    background: #FFF1F1;
+
+    padding: 10px;
+    width: 530px;
+}
